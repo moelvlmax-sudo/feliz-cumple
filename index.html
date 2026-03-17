@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz Cumpleaños!</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="confetti-container"></div>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">¡Feliz Cumpleaños, <span id="birthday-name">Ruben</span>!</h1>
+            <p class="fade-in-delayed">¡Que este día esté lleno de alegría, risas y momentos inolvidables! Te deseamos lo mejor en este nuevo año de vida.</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="countdown-section">
+            <h2>La cuenta regresiva para tu gran día:</h2>
+            <div id="countdown">
+                <div class="time-unit">
+                    <span id="days">00</span>
+                    <p>Días</p>
+                </div>
+                <div class="time-unit">
+                    <span id="hours">00</span>
+                    <p>Horas</p>
+                </div>
+                <div class="time-unit">
+                    <span id="minutes">00</span>
+                    <p>Minutos</p>
+                </div>
+                <div class="time-unit">
+                    <span id="seconds">00</span>
+                    <p>Segundos</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="cake-section">
+            <h2>¡Es hora de pedir un deseo!</h2>
+            <div class="cake">
+                <div class="plate"></div>
+                <div class="layer layer-bottom"></div>
+                <div class="layer layer-middle"></div>
+                <div class="layer layer-top"></div>
+                <div class="candle">
+                    <div class="flame"></div>
+                </div>
+            </div>
+            <button id="blow-button">Soplar la Vela</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho por S.H .</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
