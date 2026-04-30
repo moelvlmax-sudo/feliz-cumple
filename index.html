@@ -52,7 +52,17 @@
                     <div class="flame"></div>
                 </div>
             </div>
-            <button id="blow-button">Soplar la Vela</button>
+            <div class="button-group">
+                <button id="blow-button">Soplar la Vela</button>
+                <!-- Botón del minijuego -->
+                <button id="start-game-btn">Jugar Minijuego</button>
+            </div>
+
+            <!-- Contenedor del Juego -->
+            <div id="game-container" style="display: none;">
+                <canvas id="flappyCanvas" width="320" height="480"></canvas>
+                <p>Haz clic o presiona espacio para saltar</p>
+            </div>
         </section>
     </main>
 
