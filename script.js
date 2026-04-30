@@ -46,7 +46,7 @@ blowButton.addEventListener('click', () => {
 
     // Redirección después de 2 segundos
     setTimeout(() => {
-        window.location.href = "https://www.google.com"; // CAMBIA ESTE LINK
+        window.location.href = "https://youtu.be/dQw4w9WgXcQ?si=P_9aLGg0zm690jA5"; // CAMBIA ESTE LINK
     }, 2000);
 });
 
