@@ -3,7 +3,7 @@
 
 
 const countdown = () => {
-    const countDate = new Date('July 15, 2026 00:00:00');
+    const countDate = new Date('May 2, 2026 00:00:00');
     const now = new Date().getTime();
     const gap = countDate - now;
 
